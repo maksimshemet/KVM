@@ -107,7 +107,7 @@ CoreOS simplifies container management by offering an operating system tailored 
    ```bash
    virt-install --name="PXE-coreOS" --vcpus=2 --memory=4096 \
        --os-variant="fedora-coreos-stable" --import \
-       --disk="size=20,backing_store=/home/imgs/fedora-coreos-40.20240825.3.0-qcow2" \
+       --disk="size=20,backing_store=/home/imgs/fedora-coreos-40.20240825.3.0-qemu.x86_64.qcow2" \
        --network bridge=virbr0 "${IGNITION_DEVICE_ARG[@]}"
    ```
 
