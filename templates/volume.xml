@@ -1,0 +1,23 @@
+<volume type='file'>
+  <name>PXE-coreOS-2.qcow2</name>
+  <key>/var/lib/libvirt/images/PXE-coreOS-2.qcow2</key>
+  <capacity unit='bytes'>21474836480</capacity>
+  <allocation unit='bytes'>98963456</allocation>
+  <physical unit='bytes'>99024896</physical>
+  <target>
+    <path>/var/lib/libvirt/images/PXE-coreOS-2.qcow2</path>
+    <format type='qcow2'/>
+    <permissions>
+      <mode>0600</mode>
+      <owner>0</owner>
+      <group>0</group>
+      <label>system_u:object_r:virt_image_t:s0</label>
+    </permissions>
+    <compat>1.1</compat>
+    <clusterSize unit='B'>65536</clusterSize>
+    <features>
+      <lazy_refcounts/>
+    </features>
+  </target>
+</volume>
+

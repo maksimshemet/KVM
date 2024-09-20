@@ -1,0 +1,15 @@
+{
+  "ignition": {
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "homeDir": "/home/core",
+        "name": "core",
+        "passwordHash": "6b3a55e0261b0304143f805a24924d0c1c44524821305f31d9277843b8a10f4e",
+        "uid": 1337
+      }
+    ]
+  }
+}
