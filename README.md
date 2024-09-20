@@ -1,6 +1,6 @@
 # KVM Virtualization 
 # Basic Commands and Quick Reference
-# CoreOS domaine setup
+# CoreOS domain setup
 
 If you're looking to get started with KVM (Kernel-based Virtual Machine) virtualization specifically for deploying **CoreOS**, you're in the right place! This guide will walk you through some of the **basic `virsh` commands** and provide a concise **KVM VM setup** with CoreOS using **QEMU**. We’ll also provide links to official documentation for further reading and configuration options.
 
